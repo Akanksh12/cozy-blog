@@ -9,4 +9,4 @@ Then you can run the following:
 npm install
 npm run start
 ```
-Now you can visit the website on [[http://localhost:3000]]
+Now you can visit the website on [http://localhost:3000](http://localhost:3000)
