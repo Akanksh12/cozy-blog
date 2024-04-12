@@ -11,6 +11,9 @@ app.get('/about', (req, res) => {
     res.sendFile('about.html', {root: path.join(__dirname, "public")})
 })
 
+app.get(/\/posts\/.*/, (req, res) => {
+    res.sendFile(req.path + ".md", {root: path.join(__dirname)})
+})
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
