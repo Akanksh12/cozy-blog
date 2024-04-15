@@ -14,6 +14,7 @@
   "author": "Akanksh Chitimalla",
   "license": "GPLv3",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "showdown": "^2.1.0"
   }
 }
